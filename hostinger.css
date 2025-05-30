@@ -1,0 +1,110 @@
+.pricing-container {
+    display: flex;
+    justify-items: left;
+    align-items: center;
+    height: 100vp;
+    gap: 1rem;
+    background-color: #af7288;
+    
+    
+}
+
+.pricing-plan {
+    flex: 3;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #522f3c;
+    border-radius: 15px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.heading-section {
+    padding: 30px;
+    margin-left: 0;
+    text-align: center;
+    background-color: #64283f;
+
+}
+
+.price-title {
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 6px;
+}
+
+.price-subtitle {
+    padding: 10px;
+}
+
+.monthly {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.yearly {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.free-month {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price-button {
+    background-color: #b96887;
+    font-size: medium;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+}
+
+.managed {
+    font-weight: bolder;
+}
+
+.renew {
+    font-weight: 600;
+}
+
+.plan-features {
+    list-style: no;
+}
+
+.MOST {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #3A0519 ;
+    
+}
+
+.heading {
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.sub-heading {
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.start-heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 1250px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
